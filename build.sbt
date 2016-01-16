@@ -24,4 +24,5 @@ assemblyMergeStrategy in assembly := {
     oldStrategy(x)
 }
 
+test in assembly := {}
 mainClass in assembly := Some("App.main")
